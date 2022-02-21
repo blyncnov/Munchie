@@ -42,6 +42,7 @@ export const NavigationRow = styled.div`
 
 export const ItemBackground = styled.div`
   display: block;
+  z-index: 999999999;
 
   @media (max-width: 760px) {
     display: fixed;
