@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Banner from "../assets/curly2.svg";
 
 export const HeroSectionContainer = styled.div`
   padding: 2em 0;
@@ -24,6 +25,9 @@ export const HeroSectionColumn = styled.div`
   width: 100%;
   max-width: 100%;
   flex-basis: 50%;
+  background: url(${Banner});
+  background-position: top;
+  background-size: cover;
 
   h1 {
     font-size: 1.9rem;

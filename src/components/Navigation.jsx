@@ -50,8 +50,8 @@ const Navigation = () => {
                             </ItemBackground>
 
                             <MobileIcon onClick={isClickedHandler}>
-                                {isclicked ? <RiBarChartHorizontalLine style={{ fontSize: "2em" }} />
-                                    : <FaTimes style={{ fontSize: "2em" }} />}
+                                {isclicked ? <RiBarChartHorizontalLine style={{ fontSize: "1.5em" }} />
+                                    : <FaTimes style={{ fontSize: "1.5em" }} />}
                             </MobileIcon>
                         </NavigationRow>
                     </div>
