@@ -33,10 +33,12 @@ export const NavigationRow = styled.div`
       rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
       rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     border-radius: 4px;
+    font-family: "Cormorant Upright", serif;
   }
 
   .Navbar__logo h1 {
-    color: rgb(134 151 99);
+    /* color: rgb(134 151 99); */
+    color: #383762;
   }
 `;
 
@@ -73,12 +75,13 @@ export const Lists = styled.li`
   transition: all 0.4s ease-in-out;
 
   a {
-    font-weight: 500;
+    font-weight: 700;
     color: #797676;
     font-size: 1rem;
     line-height: 20px;
     letter-spacing: 1px;
     transition: all 0.4s ease-in-out;
+    font-family: "Cormorant Upright", serif;
   }
 
   :hover {

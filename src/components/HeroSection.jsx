@@ -21,7 +21,9 @@ const HeroSection = () => {
                             initial={{ x: 250, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ duration: 2 }}
-                        >{HeroSectionInfo.title}</motion.h1>
+                        >
+                            <span>Order<span />
+                            </span>{HeroSectionInfo.title}</motion.h1>
                         <motion.p
                             initial={{ opacity: 0.3 }}
                             animate={{ opacity: 2 }}
@@ -42,7 +44,7 @@ const HeroSection = () => {
                             src={HeroSectionInfo.url} alt="banner" />
                     </HeroSectionColumn>
                 </HeroSectionRow>
-            </HeroSectionContainer>
+            </HeroSectionContainer >
         </>
     )
 }
