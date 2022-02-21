@@ -50,7 +50,7 @@ export const HeroSectionColumn = styled.div`
     padding: 1em 1.8em;
     border: none;
     background-color: #383762;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Cormorant Upright", serif;
     font-weight: 600;
   }
 
@@ -58,7 +58,7 @@ export const HeroSectionColumn = styled.div`
     color: white;
     font-weight: 700;
     font-size: 16px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Cormorant Upright", serif;
   }
 
   img {
