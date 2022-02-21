@@ -26,8 +26,9 @@ export const HeroSectionColumn = styled.div`
   max-width: 100%;
   flex-basis: 50%;
   background: url(${Banner});
-  background-position: top;
+  background-position: top, 20px;
   background-size: cover;
+  background-repeat: no-repeat;
 
   h1 {
     font-size: 1.9rem;
@@ -42,7 +43,7 @@ export const HeroSectionColumn = styled.div`
   }
 
   p {
-    font-size: 12px;
+    font-size: 16px;
     margin: 1em 0;
     color: #333;
     font-family: "Open Sans", sans-serif;
@@ -69,6 +70,12 @@ export const HeroSectionColumn = styled.div`
     width: 100%;
     align-self: center;
     max-width: 100%;
+  }
+
+  @media (max-width: 760px) {
+    p {
+      font-size: 12px;
+    }
   }
 `;
 
