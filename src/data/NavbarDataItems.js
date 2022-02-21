@@ -1,4 +1,4 @@
-export const LogoName = "LOGO";
+export const LogoName = "Munchie";
 
 export const NavItemLists = [
   {
