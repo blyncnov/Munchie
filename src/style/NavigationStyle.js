@@ -8,7 +8,7 @@ export const NavigationContainer = styled.div`
 
 export const NavigationColumn = styled.div`
   width: 100%;
-  padding: 1em 0;
+  padding: 0.5em 0;
   height: 70px;
   display: flex;
   align-items: center;
