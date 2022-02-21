@@ -24,11 +24,19 @@ const HeroSection = () => {
                         >
                             <span>Order<span />
                             </span>{HeroSectionInfo.title}</motion.h1>
+
                         <motion.p
                             initial={{ opacity: 0.3 }}
                             animate={{ opacity: 2 }}
                             transition={{ duration: 2 }}
                         >{HeroSectionInfo.desc}</motion.p>
+
+                        <motion.p
+                            initial={{ opacity: 0.3 }}
+                            animate={{ opacity: 2 }}
+                            transition={{ duration: 2 }}
+                        >{HeroSectionInfo.add}</motion.p>
+
                         <motion.button
                             initial={{ x: `-100vw ` }}
                             animate={{ x: 0 }}
