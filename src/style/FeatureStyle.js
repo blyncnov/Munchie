@@ -53,6 +53,7 @@ export const FeatureBoxOneCard = styled.div`
   p {
     font-weight: 600;
     font-size: 14px;
+    color: #383762;
   }
 
   @media (max-width: 760px) {
@@ -79,6 +80,7 @@ export const FeatureBoxTwoCard = styled.div`
   p {
     font-weight: 600;
     font-size: 14px;
+    color: #383762;
   }
 
   @media (max-width: 760px) {
