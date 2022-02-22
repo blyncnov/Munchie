@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const NavigationContainer = styled.div`
   width: 100%;
-  /* background-color: rgb(221, 255, 154); */
+  position: relative;
   background-color: #ebe7ffb9;
 `;
 
@@ -11,6 +11,7 @@ export const NavigationColumn = styled.div`
   padding: 0.5em 0;
   height: 70px;
   display: flex;
+  position: relative;
   align-items: center;
   /* background-color: #fff; */
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
