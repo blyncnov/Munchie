@@ -44,7 +44,7 @@ export const FeatureBoxTwoSummary = styled.div`
 export const FeatureBoxOneCard = styled.div`
   box-shadow: 0 0 25px rgb(0 0 0 / 10%);
   background-color: white;
-  padding: 1em;
+  padding: 1.2em 1em;
   border-radius: 3px;
   gap: 1em;
   flex-basis: 33.3%;
@@ -70,7 +70,7 @@ export const FeatureBoxOneCard = styled.div`
 export const FeatureBoxTwoCard = styled.div`
   box-shadow: 0 0 25px rgb(0 0 0 / 10%);
   background-color: white;
-  padding: 1em;
+  padding: 1.2em 1em;
   border-radius: 3px;
   gap: 1em;
   flex-basis: 33.3%;
