@@ -1,8 +1,13 @@
 import styled from "styled-components";
+import Banner from "../assets/curly3.svg";
 
 export const FeatureContainer = styled.div`
   width: 100%;
   padding: 2em 0;
+  background: url(${Banner});
+  background-position: top, 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
 
   h1 {
     text-align: center;
