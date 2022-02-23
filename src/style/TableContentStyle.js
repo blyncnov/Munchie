@@ -20,6 +20,15 @@ export const TablecontentColumn = styled.div`
     border: 0.5px solid #dddddd;
     text-align: center;
     padding: 1em;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  @media (max-width: 760px) {
+    td,
+    th {
+      font-size: 12px;
+    }
   }
 `;
 
