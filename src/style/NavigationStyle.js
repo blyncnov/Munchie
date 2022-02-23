@@ -4,6 +4,9 @@ export const NavigationContainer = styled.div`
   width: 100%;
   position: relative;
   background-color: #ebe7ffb9;
+  position: fixed;
+  top: 0;
+  z-index: 9999999999999999999999999999;
 `;
 
 export const NavigationColumn = styled.div`

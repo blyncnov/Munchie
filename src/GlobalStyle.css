@@ -20,3 +20,20 @@ body {
   margin: 0 auto;
   font-family: "Open Sans", sans-serif;
 }
+
+.contain__global {
+  position: relative;
+  height: 70px;
+}
+
+/* 
+.contain__global {
+  position: relative;
+  height: 70px;
+}
+
+@media (max-width: 760px) {
+  .contain__global {
+    height: 60px;
+  }
+} */

@@ -46,7 +46,7 @@ const TableContent = () => {
                                 <td>
                                     <img src={Bg} alt="img" width="100px" />
                                 </td>
-                                <td>Noodle and Fried Egg</td>
+                                <td>Noodles and Fried Egg</td>
                             </tr>
                             <tr>
                                 <td>4</td>

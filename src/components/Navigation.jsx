@@ -30,7 +30,7 @@ const Navigation = () => {
     }
 
     return (
-        <>
+        <div className="contain__global">
             <NavigationContainer>
                 <NavigationColumn>
                     <div className="Constrainant">
@@ -57,7 +57,7 @@ const Navigation = () => {
                     </div>
                 </NavigationColumn>
             </NavigationContainer>
-        </>
+        </div>
     )
 }
 
