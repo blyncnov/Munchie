@@ -36,7 +36,7 @@ const Navigation = () => {
                     <div className="Constrainant">
                         <NavigationRow>
                             <div className="Navbar__logo">
-                                <h1 contenteditable="true">{LogoName}</h1>
+                                <h1 >{LogoName}</h1>
                             </div>
 
                             <ItemBackground click={isclicked} onClick={isClickedHandler}>

@@ -1,11 +1,5 @@
 import React from 'react'
-import {
-    FcInTransit,
-    FcInspection,
-    FcFullTrash,
-    FcFlashOn,
-    FcNeutralDecision
-} from "react-icons/fc"
+import { FeaturedataOne, FeaturedataTwo } from "../data/FeatureData"
 
 import {
     FeatureContainer,
@@ -25,35 +19,30 @@ const Features = () => {
                 <FeatureColumn>
                     <FeatureRow>
                         <FeatureBoxOneSummary>
-                            <FeatureBoxOneCard>
-                                <FcInTransit style={{ fontSize: "2em" }} />
-                                <br />
-                                <p>We’ll give you a free debit card. Order it right in the app.</p>
-                            </FeatureBoxOneCard>
-                            <FeatureBoxOneCard>
-                                <FcInspection style={{ fontSize: "2em" }} />
-                                <br />
-                                <p>Create smart budgets to help you take control of your spending.</p>
-                            </FeatureBoxOneCard>
-                            <FeatureBoxOneCard>
-                                <FcFullTrash style={{ fontSize: "2em" }} />
-                                <br />
-                                <p>See where your money goes without solving equations.</p>
-                            </FeatureBoxOneCard>
+                            {FeaturedataOne.map((featureOne) => {
+                                return (
+
+                                    <FeatureBoxOneCard key={featureOne.id}>
+                                        {featureOne.icon}
+                                        <br />
+                                        <p>{featureOne.desc}</p>
+                                    </FeatureBoxOneCard>
+
+                                )
+                            })}
                         </FeatureBoxOneSummary>
                         <br />
                         <FeatureBoxTwoSummary>
-                            <FeatureBoxTwoCard>
-                                <FcFlashOn style={{ fontSize: "2em" }} />
-                                <br />
-                                <p>We’ll give you a free debit card. Order verbally  right in the app.</p>
-                            </FeatureBoxTwoCard>
-                            <FeatureBoxTwoCard>
-                                <FcNeutralDecision style={{ fontSize: "2em" }} />
-                                <br />
-                                <p>Create smart budgets to help you take control of your spending.</p>
-                            </FeatureBoxTwoCard>
+                            {FeaturedataTwo.map((featureTwo) => {
+                                return (
+                                    <FeatureBoxTwoCard key={featureTwo.id}>
+                                        {featureTwo.icon}
+                                        <br />
+                                        <p>{featureTwo.desc}</p>
+                                    </FeatureBoxTwoCard>
 
+                                )
+                            })}
                         </FeatureBoxTwoSummary>
                     </FeatureRow>
                 </FeatureColumn>
