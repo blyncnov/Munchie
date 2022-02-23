@@ -1,7 +1,12 @@
 import styled from "styled-components";
+import Banner from "../assets/curly2.svg";
 
 export const TablecontentContainner = styled.div`
   width: auto;
+  background: url(${Banner});
+  background-position: top, 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
 `;
 
 export const TablecontentColumn = styled.div`
