@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { RiBarChartHorizontalLine } from "react-icons/ri"
 import { FaTimes } from "react-icons/fa"
 // import all Components
@@ -23,15 +23,34 @@ import {
 
 const Navigation = () => {
     const [isclicked, setIsClicked] = useState(true)
+    const [isScroll, setIsScroll] = useState(false);
 
     const isClickedHandler = () => {
         setIsClicked(!isclicked)
         console.log("true");
     }
 
+    useEffect(() => {
+
+        const isScrolledHandler = () => {
+            if (window.scrollY >= 70) {
+                setIsScroll(true)
+                // console.log(window.scrollY);
+            }
+            else {
+                setIsScroll(false)
+            }
+        }
+
+        window.addEventListener("scroll", isScrolledHandler);
+
+        return () => window.removeEventListener("scroll", isScrolledHandler);
+
+    }, [])
+
     return (
         <div className="contain__global">
-            <NavigationContainer>
+            <NavigationContainer isScroll={isScroll}>
                 <NavigationColumn>
                     <div className="Constrainant">
                         <NavigationRow>

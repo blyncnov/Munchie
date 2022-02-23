@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const NavigationContainer = styled.div`
   width: 100%;
   position: relative;
-  background-color: #ebe7ffb9;
+  /* background-color: #ebe7ffb9; */
+  background-color: ${({ isScroll }) => (isScroll ? "#FAF8FB" : "#ebe7ffb9")};
   position: fixed;
   top: 0;
   z-index: 9999999999999999999999999999;
