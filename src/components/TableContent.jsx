@@ -12,7 +12,7 @@ import {
 const TableContent = () => {
     return (
         <div>
-            <h1 style={{ color: "#383762", padding: ".5em 0" }}>Our Menu</h1>
+            <h2 style={{ color: "#383762", padding: ".5em 0" }}>Our Table Menu</h2>
             <TablecontentContainner >
                 <TablecontentColumn >
                     <table>

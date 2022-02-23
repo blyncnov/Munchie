@@ -17,7 +17,7 @@ export const TablecontentColumn = styled.div`
 
   td,
   th {
-    border: 1px solid #dddddd;
+    border: 0.5px solid #dddddd;
     text-align: center;
     padding: 1em;
   }
