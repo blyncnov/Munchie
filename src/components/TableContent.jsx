@@ -25,38 +25,43 @@ const TableContent = () => {
                             <td>1</td>
                             <td>
                                 <img src={Bg} alt="img" width="100px" />
-                            </td>                            <td>Fried Rice And Turkey</td>
+                            </td>
+                            <td>Fried Rice And Turkey</td>
                         </tr>
                         <tr>
                             <td>2</td>
                             <td>
                                 <img src={Bg} alt="img" width="100px" />
-                            </td>                            <td>Olarewaju and Pepper</td>
+                            </td>
+                            <td>Olarewaju and Pepper</td>
                         </tr>
                         <tr>
                             <td>3</td>
                             <td>
                                 <img src={Bg} alt="img" width="100px" />
-                            </td>                            <td>Noodle and Fried Egg</td>
+                            </td>
+                            <td>Noodle and Fried Egg</td>
                         </tr>
                         <tr>
                             <td>4</td>
                             <td>
                                 <img src={Bg} alt="img" width="100px" />
-                            </td>                            <td>Plantain and Egg Sauce</td>
+                            </td>
+                            <td>Plantain and Egg Sauce</td>
                         </tr>
                         <tr>
                             <td>5</td>
                             <td>
                                 <img src={Bg} alt="img" width="100px" />
-                            </td>                            <td>Canadian Loud and Weed</td>
+                            </td>
+                            <td>Canadian Loud and Weed</td>
                         </tr>
                         <tr>
                             <td>6</td>
                             <td>
                                 <img src={Bg} alt="img" width="100px" />
                             </td>
-                            <td>Italy</td>
+                            <td>Fried Yam and Pear</td>
                         </tr>
                     </table>
                 </TablecontentColumn>
