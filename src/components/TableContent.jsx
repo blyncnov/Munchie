@@ -25,49 +25,85 @@ const TableContent = () => {
                             <tr>
                                 <th>No.</th>
                                 <th>Image</th>
-                                <th>Price</th>
+                                <th className="alignment">Description & Price</th>
                             </tr>
                             <tr>
                                 <td>1</td>
                                 <td>
                                     <img src={Bg} alt="img" width="100px" />
                                 </td>
-                                <td>Fried Rice And Turkey</td>
+                                <td className="alignment">
+                                    <div className="subdivision">
+                                        <h4>Fried Rice And Turkey</h4>
+                                        <br />
+                                        <h4>$200.00</h4>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>2</td>
                                 <td>
                                     <img src={Bg} alt="img" width="100px" />
                                 </td>
-                                <td>Olarewaju and Pepper</td>
+                                <td className="alignment">
+                                    <div className="subdivision">
+                                        <h4>Olarewaju and Pepper</h4>
+                                        <br />
+                                        <h4>$200.05</h4>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>3</td>
                                 <td>
                                     <img src={Bg} alt="img" width="100px" />
                                 </td>
-                                <td>Noodles and Fried Egg</td>
+                                <td className="alignment">
+                                    <div className="subdivision">
+                                        <h4>Noodles and Fried Egg</h4>
+                                        <br />
+                                        <h4>$450.10</h4>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>4</td>
                                 <td>
                                     <img src={Bg} alt="img" width="100px" />
                                 </td>
-                                <td>Plantain and Egg Sauce</td>
+                                <td className="alignment">
+                                    <div className="subdivision">
+                                        <h4>Plantain and Egg Sauce</h4>
+                                        <br />
+                                        <h4>$160.80</h4>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>5</td>
                                 <td>
                                     <img src={Bg} alt="img" width="100px" />
                                 </td>
-                                <td>Canadian Loud and Weed</td>
+                                <td className="alignment">
+                                    <div className="subdivision">
+                                        <h4>Canadian Loud and Weed</h4>
+                                        <br />
+                                        <h4>$100.99</h4>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <td>6</td>
                                 <td>
                                     <img src={Bg} alt="img" width="100px" />
                                 </td>
-                                <td>Fried Yam and Pear</td>
+                                <td className="alignment">
+                                    <div className="subdivision">
+                                        <h4>Fried Yam and Pear</h4>
+                                        <br />
+                                        <h4>$280.12</h4>
+                                    </div>
+                                </td>
                             </tr>
                         </tbody>
                     </table>

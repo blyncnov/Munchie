@@ -18,6 +18,7 @@ export const TablecontentColumn = styled.div`
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    color: #383762;
   }
 
   td,
@@ -27,6 +28,10 @@ export const TablecontentColumn = styled.div`
     padding: 1em;
     font-size: 14px;
     font-weight: 600;
+  }
+
+  .alignment {
+    text-align: start !important;
   }
 
   @media (max-width: 760px) {
