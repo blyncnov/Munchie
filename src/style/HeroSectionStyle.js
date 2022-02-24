@@ -72,6 +72,17 @@ export const HeroSectionColumn = styled.div`
     max-width: 100%;
   }
 
+  div {
+    position: relative;
+    display: flex;
+  }
+
+  .stay {
+    position: absolute;
+    top: 10%;
+    right: 30%;
+  }
+
   @media (max-width: 760px) {
     p {
       font-size: 12px;

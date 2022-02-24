@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 
 import Bg from "../assets/png_noodle_14765.png"
 
@@ -30,7 +31,22 @@ const TableContent = () => {
                             <tr>
                                 <td>1</td>
                                 <td>
-                                    <img src={Bg} alt="img" width="100px" />
+                                    <motion.div
+                                        animate={{
+                                            rotate: [-90, 0],
+                                            scale: [1, 1.01, 1.01, 1, 1],
+                                        }}
+                                        transition={{
+                                            duration: 5,
+                                            ease: "easeInOut",
+                                            times: [0, 0.2, 0.5, 0.8, 1],
+                                            repeat: 2,
+                                            repeatDelay: 0
+                                        }}
+                                    >
+                                        <img src={Bg} alt="img" width="100px" />
+
+                                    </motion.div>
                                 </td>
                                 <td className="alignment">
                                     <div className="subdivision">
@@ -43,7 +59,22 @@ const TableContent = () => {
                             <tr>
                                 <td>2</td>
                                 <td>
-                                    <img src={Bg} alt="img" width="100px" />
+                                    <motion.div
+                                        animate={{
+                                            rotate: [360, 0],
+                                            scale: [1, 1.01, 1.01, 1, 1],
+                                        }}
+                                        transition={{
+                                            duration: 5,
+                                            ease: "easeInOut",
+                                            times: [0, 0.2, 0.5, 0.8, 1],
+                                            repeat: 2,
+                                            repeatDelay: 0
+                                        }}
+                                    >
+                                        <img src={Bg} alt="img" width="100px" />
+
+                                    </motion.div>
                                 </td>
                                 <td className="alignment">
                                     <div className="subdivision">
@@ -56,7 +87,22 @@ const TableContent = () => {
                             <tr>
                                 <td>3</td>
                                 <td>
-                                    <img src={Bg} alt="img" width="100px" />
+                                    <motion.div
+                                        animate={{
+                                            rotate: [90, 360, 0],
+                                            scale: [1, 1.01, 1.01, 1, 1],
+                                        }}
+                                        transition={{
+                                            duration: 5,
+                                            ease: "easeInOut",
+                                            times: [0, 0.2, 0.5, 0.8, 1],
+                                            repeat: 2,
+                                            repeatDelay: 0
+                                        }}
+                                    >
+                                        <img src={Bg} alt="img" width="100px" />
+
+                                    </motion.div>
                                 </td>
                                 <td className="alignment">
                                     <div className="subdivision">
@@ -69,7 +115,22 @@ const TableContent = () => {
                             <tr>
                                 <td>4</td>
                                 <td>
-                                    <img src={Bg} alt="img" width="100px" />
+                                    <motion.div
+                                        animate={{
+                                            rotate: [-360, 0],
+                                            scale: [1, 1.01, 1.01, 1, 1],
+                                        }}
+                                        transition={{
+                                            duration: 5,
+                                            ease: "easeInOut",
+                                            times: [0, 0.2, 0.5, 0.8, 1],
+                                            repeat: 2,
+                                            repeatDelay: 0
+                                        }}
+                                    >
+                                        <img src={Bg} alt="img" width="100px" />
+
+                                    </motion.div>
                                 </td>
                                 <td className="alignment">
                                     <div className="subdivision">
@@ -82,7 +143,22 @@ const TableContent = () => {
                             <tr>
                                 <td>5</td>
                                 <td>
-                                    <img src={Bg} alt="img" width="100px" />
+                                    <motion.div
+                                        animate={{
+                                            rotate: [-90, 360],
+                                            scale: [1, 1.01, 1.01, 1, 1],
+                                        }}
+                                        transition={{
+                                            duration: 5,
+                                            ease: "easeInOut",
+                                            times: [0, 0.2, 0.5, 0.8, 1],
+                                            repeat: 2,
+                                            repeatDelay: 0
+                                        }}
+                                    >
+                                        <img src={Bg} alt="img" width="100px" />
+
+                                    </motion.div>
                                 </td>
                                 <td className="alignment">
                                     <div className="subdivision">
@@ -95,7 +171,22 @@ const TableContent = () => {
                             <tr>
                                 <td>6</td>
                                 <td>
-                                    <img src={Bg} alt="img" width="100px" />
+                                    <motion.div
+                                        animate={{
+                                            rotate: [90, 0],
+                                            scale: [1, 1.01, 1.01, 1, 1],
+                                        }}
+                                        transition={{
+                                            duration: 5,
+                                            ease: "easeInOut",
+                                            times: [0, 0.2, 0.5, 0.8, 1],
+                                            repeat: 2,
+                                            repeatDelay: 0
+                                        }}
+                                    >
+                                        <img src={Bg} alt="img" width="100px" />
+
+                                    </motion.div>
                                 </td>
                                 <td className="alignment">
                                     <div className="subdivision">

@@ -1,4 +1,5 @@
-import Banner from "../assets/banner.png";
+import Banner from "../assets/food/foodbanner2.png";
+import FoodBanner from "../assets/food/foodbanner.png";
 
 export const HeroSectionInfo = {
   id: 1,
@@ -7,8 +8,8 @@ export const HeroSectionInfo = {
   add: "Get exclusive deals on your Munchie's favorites in the app with contactless Mobile Order & Pay.",
   button: "Order Munchie's Now",
   direction: false,
-  img: "https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/ae4714c0-2cca-48e0-817c-38d413cb543f/clubhouse-sb.png",
-  url: Banner,
+  img: Banner,
+  url: FoodBanner,
 };
 
 export default HeroSectionInfo;

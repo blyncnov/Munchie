@@ -6,10 +6,10 @@ export const HeaderContainer = styled.div`
 
   /* background-color: rgb(221, 255, 154); */
   background-color: #ebe7ffb9;
-  background: url(${Bannertwo});
+  /* background: url(${Bannertwo});
   background-position: top, 20px;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 `;
 
 export default HeaderContainer;
