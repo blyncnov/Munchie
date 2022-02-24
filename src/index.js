@@ -21,7 +21,7 @@ const Index = () => {
   return (
     <>
       <App />
-      <audio loop id="backgroundMusic" controls autoPlay>
+      <audio loop id="backgroundMusic" controls autoPlay="true">
         <source
           src="http://codeskulptor-demos.commondatastorage.googleapis.com/GalaxyInvaders/theme_01.mp3"
           type="audio/mp3"
