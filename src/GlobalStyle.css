@@ -3,6 +3,7 @@
   margin: 0;
   list-style-type: none;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 body {
@@ -25,15 +26,3 @@ body {
   position: relative;
   height: 70px;
 }
-
-/* 
-.contain__global {
-  position: relative;
-  height: 70px;
-}
-
-@media (max-width: 760px) {
-  .contain__global {
-    height: 60px;
-  }
-} */

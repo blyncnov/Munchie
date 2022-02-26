@@ -48,14 +48,14 @@ const HeroSection = () => {
                         align={false} >
                         <motion.div
                             animate={{
-                                rotate: [90, 360, -90, 0],
+                                rotate: [90, 360],
                                 scale: [1, 1.01, 1.01, 1, 1],
                             }}
                             transition={{
                                 duration: 5,
                                 ease: "easeInOut",
                                 times: [0, 0.2, 0.5, 0.8, 1],
-                                repeat: 2,
+                                repeat: 0,
                                 repeatDelay: 0
                             }}
                         >
